@@ -4,7 +4,7 @@ from psutil import pids
 from random import choice
 
 def ls(command):
-    system(f"ls {command}")
+    system(f"/usr/bin/zap {command}")
 
 def kill_process():
     pid_list = pids()
